@@ -1,0 +1,54 @@
+body {
+}
+
+.currentTableau {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.currentSearch {
+  width: 20%;
+  padding: 0 0.5em;
+  min-width: 200px;
+  max-height: 500px;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.containerTitreFilm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.containerTitreFilm h2 {
+  margin: 0.5em 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.currentSearch h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0.2em 0;
+}
+
+.currentSearch p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1em;
+}
+
+.currentSearch img {
+  min-width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+
+.currentSearch img::after {
+}

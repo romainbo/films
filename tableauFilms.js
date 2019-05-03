@@ -1,5 +1,4 @@
 // C'est dans un tableau qu'on va afficher tous les films qui seront le résultat de la recherche
-
 class Tableau {
   constructor(rep, status, urlPoster) {
     //  On initie le tableau avec :
@@ -68,7 +67,6 @@ class Tableau {
       section.appendChild(ratings);
       section.appendChild(overview);
 
-      console.log(film.title);
       if (film.original_title === film.title) {
         titreOrihinal.textContent = "";
       } else {
